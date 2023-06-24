@@ -8,7 +8,6 @@ import com.example.reggie.service.EmployeeService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -98,14 +97,6 @@ public class EmployeeController {
         log.info("新增员工，员工信息{}",employee.toString());
         //设置初始密码并进行MD5加密
         employee.setPassword(DigestUtils.md5DigestAsHex("123456".getBytes()));
-
-        employee.setCreateTime(LocalDateTime.now());
-        employee.setUpdateTime(LocalDateTime.now());
-       //获得当前登录用户的id，因为添加员工时，一定是有一个员工登录了后端管理程序，因此创建人和修改人都是当前登录的员工
-         Long empId = (Long)request.getSession().getAttribute("employee");
-
-        employee.setCreateUser(empId);
-        employee.setUpdateUser(empId);
         //mybatis-plus封装方法
         employeeService.save(employee);
         return R.success("新增员工成功");
@@ -160,5 +151,16 @@ public class EmployeeController {
         employeeService.updateById(employee);
         return R.success("员工信息修改成功");
 
+    }
+
+
+    @GetMapping("/{id}")
+    public R<Employee> getById(@PathVariable Long id){
+        log.info("根据id查询员工信息，{}",id);
+        Employee employee = employeeService.getById(id);
+        if(employee != null){
+            return R.success(employee);
+        }
+        return R.error("为查询到员工");
     }
 }

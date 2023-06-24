@@ -30,7 +30,12 @@ public class Employee implements Serializable {
     //身份证号码
     private String idNumber;
      private Integer status;
+     /*
+     @TableField()注解：INSERT插入时自动填充字段值 INSERT_UPDATE插入和更新时自动填充字段值
+      */
+     @TableField(fill = FieldFill.INSERT)
      private LocalDateTime createTime;
+     @TableField(fill = FieldFill.INSERT_UPDATE)
      private LocalDateTime updateTime;
 
      @TableField(fill = FieldFill.INSERT)
