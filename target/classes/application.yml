@@ -16,4 +16,4 @@ mybatis-plus:
     db-config:
       id-type: ASSIGN_ID
 reggie:
-  path: D:\
+  path: C:\Users\李朋逊\IdeaProjects\reggie\src\main\resources\pictures
