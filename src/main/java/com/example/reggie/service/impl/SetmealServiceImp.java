@@ -7,5 +7,5 @@ import com.example.reggie.service.SetmealService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class SetmealServiceImpl  extends ServiceImpl<SetmealMapper, Setmeal> implements SetmealService {
+public class SetmealServiceImp extends ServiceImpl<SetmealMapper, Setmeal> implements SetmealService {
 }

@@ -6,21 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="edc414c7-0c93-4a3b-9dad-e1acc8e594d8" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/ReggieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/ReggieApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/controller/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/mapper/DishFlavorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/mapper/DishFlavorMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/DishFlavorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/DishFlavorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/DishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/DishFlavorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/ReggieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/ReggieApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/DishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/service/DishService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/DishServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/DishServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/CategoryServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/DishFlavorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/DishFlavorServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/DishServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/SetmealServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pictures04451eb8-055a-4f1b-9ee2-3202bd43f685.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pictures0bbb5add-6137-4d1d-b93a-98d468a2c989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pictures145a252a-7418-4e3c-9aba-eb8eb3b55171.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pictures2a29cfa8-6950-4872-9827-1be2751525d6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/picturesb5194e30-0471-445d-a94e-6bdfecb56490.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pictureseea4878e-6d39-4d10-8d49-ca616d86bd7f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/controller/DishController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/DishFlavorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/DishServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/SetmealServiceImpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\Users\李朋逊\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -79,7 +86,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/李朋逊/IdeaProjects/reggie/src/main/java/com/example/reggie/entity&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/李朋逊/IdeaProjects/reggie&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -88,13 +95,14 @@
     &quot;project.structure.last.edited&quot;: &quot;问题&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.35418582&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;3acf5c7b740d6e2538f3a7b88cf069b3&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\李朋逊\IdeaProjects\reggie\src\main\java\com\example\reggie\dto" />
       <recent name="C:\Users\李朋逊\IdeaProjects\reggie\src\main\java\com\example\reggie\entity" />
       <recent name="C:\Users\李朋逊\IdeaProjects\reggie\src\main\resources\backend\page\demo" />
       <recent name="C:\Users\李朋逊\IdeaProjects\reggie\src\main\java\com\example\reggie\common" />
@@ -149,7 +157,10 @@
       <workItem from="1687312677761" duration="1619000" />
       <workItem from="1687574405078" duration="747000" />
       <workItem from="1688799729351" duration="6829000" />
-      <workItem from="1688885525395" duration="1775000" />
+      <workItem from="1688885525395" duration="2350000" />
+      <workItem from="1688946296366" duration="7512000" />
+      <workItem from="1688978783793" duration="379000" />
+      <workItem from="1688979175429" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1687087409941</created>
@@ -165,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687574570024</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes">
+      <created>1688888048442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688888048442</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

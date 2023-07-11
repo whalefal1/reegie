@@ -64,5 +64,21 @@ public class DishController {
                 return R.success(dishDtoPage);
         }
 
-
+    /**
+     * Description 根据条件查询对应菜品数据
+     *
+     * @param dish 菜
+     * @return {@link R }<{@link List }<{@link Dish }>>
+     * @author 李朋逊
+     * @date 2023/07/10
+     */
+    @GetMapping("/list")
+        public R<List<Dish>> listDish(Dish dish){
+        LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper();
+        queryWrapper.eq(dish.getCategoryId() != null,Dish::getCategoryId,dish.getCategoryId());
+        queryWrapper.eq(Dish::getStatus,1);
+        queryWrapper.orderByAsc(Dish::getSort).orderByDesc(Dish::getUpdateTime);
+        List<Dish> list = dishService.list(queryWrapper);
+        return R.success(list);
+        }
 }
