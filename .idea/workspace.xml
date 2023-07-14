@@ -7,22 +7,28 @@
     <list default="true" id="edc414c7-0c93-4a3b-9dad-e1acc8e594d8" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/controller/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/CategoryServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/DishFlavorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/DishFlavorServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/DishServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/SetmealServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pictures04451eb8-055a-4f1b-9ee2-3202bd43f685.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pictures0bbb5add-6137-4d1d-b93a-98d468a2c989.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pictures145a252a-7418-4e3c-9aba-eb8eb3b55171.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pictures2a29cfa8-6950-4872-9827-1be2751525d6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/picturesb5194e30-0471-445d-a94e-6bdfecb56490.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pictureseea4878e-6d39-4d10-8d49-ca616d86bd7f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/SetmealDishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/SetmealDishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/SetmealService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/SetmealDishImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/SetmealDishImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/SetmealServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reggie/service/impl/SetmealServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/controller/CategoryController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/controller/DishController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/CategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/DishFlavorServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/DishServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/SetmealServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/controller/SetmealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/controller/SetmealController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/filter/LoginCheckFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/filter/LoginCheckFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/SetmealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/service/SetmealService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/SetmealDishImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/SetmealDishImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/SetmealServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/reggie/service/impl/SetmealServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pictures04451eb8-055a-4f1b-9ee2-3202bd43f685.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pictures0bbb5add-6137-4d1d-b93a-98d468a2c989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pictures145a252a-7418-4e3c-9aba-eb8eb3b55171.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pictures2a29cfa8-6950-4872-9827-1be2751525d6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/picturesb5194e30-0471-445d-a94e-6bdfecb56490.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pictureseea4878e-6d39-4d10-8d49-ca616d86bd7f.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,37 +82,39 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/李朋逊/IdeaProjects/reggie&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;问题&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.35418582&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;3acf5c7b740d6e2538f3a7b88cf069b3&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/李朋逊/IdeaProjects/Data structures and algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "问题",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.35418582",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "3acf5c7b740d6e2538f3a7b88cf069b3",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\李朋逊\IdeaProjects\reggie\src\main\java\com\example\reggie\dto" />
+      <recent name="C:\Users\李朋逊\IdeaProjects\reggie\src\main\java\com\example\reggie\utils" />
       <recent name="C:\Users\李朋逊\IdeaProjects\reggie\src\main\java\com\example\reggie\entity" />
+      <recent name="C:\Users\李朋逊\IdeaProjects\reggie\src\main\java\com\example\reggie\dto" />
       <recent name="C:\Users\李朋逊\IdeaProjects\reggie\src\main\resources\backend\page\demo" />
       <recent name="C:\Users\李朋逊\IdeaProjects\reggie\src\main\java\com\example\reggie\common" />
-      <recent name="C:\Users\李朋逊\IdeaProjects\reggie\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\李朋逊\IdeaProjects\reggie\src\main\resources\backend" />
@@ -161,6 +169,13 @@
       <workItem from="1688946296366" duration="7512000" />
       <workItem from="1688978783793" duration="379000" />
       <workItem from="1688979175429" duration="684000" />
+      <workItem from="1689036746208" duration="10590000" />
+      <workItem from="1689047916496" duration="723000" />
+      <workItem from="1689059190227" duration="268000" />
+      <workItem from="1689067451437" duration="1773000" />
+      <workItem from="1689152783609" duration="1314000" />
+      <workItem from="1689210118200" duration="948000" />
+      <workItem from="1689216152402" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1687087409941</created>
@@ -183,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688888048442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes">
+      <created>1689036792748</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689036792748</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changes">
+      <created>1689036900127</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689036900127</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

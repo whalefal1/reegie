@@ -20,8 +20,8 @@ import java.io.IOException;
  * @date 2023/06/17
  */
 //指定过滤器名称和过滤的路径
-@WebFilter(filterName = "LoginCheckFilter" , urlPatterns = "/*")
 @Slf4j
+@WebFilter(filterName = "LoginCheckFilter",value = "/*")
 public class LoginCheckFilter implements Filter {
 
 
@@ -44,7 +44,7 @@ public class LoginCheckFilter implements Filter {
         log.info("拦截到请求：{}",URI);
         //定义不需要处理的请求路径
         String[] urls = new String[]{
-          "/employee/login", "/employee/logout","/backend/**","/front/**"
+          "/employee/login", "/employee/logout","/backend/**","/front/**","/user/sendMsg","/user/login"
         };
         //判断本次请求是否需要处理
         //如果不需要处理，直接放行
@@ -59,6 +59,14 @@ public class LoginCheckFilter implements Filter {
             log.info("用户已登录，用户id为{}",request.getSession().getAttribute("employee"));
             Long empId = (Long)  request.getSession().getAttribute("employee");
             BaseContext.setCurrentId(empId);
+            filterChain.doFilter(request,response);
+            return;
+        }
+        Object user = request.getSession().getAttribute("user");
+        if(user != null){
+            log.info("用户已登录，用户id为{}",request.getSession().getAttribute("user"));
+            Long userId = (Long)  request.getSession().getAttribute("user");
+            BaseContext.setCurrentId(userId);
             filterChain.doFilter(request,response);
             return;
         }
